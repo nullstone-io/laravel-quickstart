@@ -2,7 +2,7 @@
 
 This is a PHP Laravel Quickstart for [Nullstone](https://nullstone.io).
 
-This is based on the Laravel [install guide](https://laravel.com/docs/9.x/installation).
+This is based on the Laravel [install guide](https://laravel.com/docs/8.x/installation).
 
 This example is configured with the following:
 - static assets served through nginx
