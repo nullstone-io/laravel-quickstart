@@ -27,8 +27,8 @@ The dependencies will be installed on boot of the docker container.
 ## How to launch via Nullstone
 
 1. Create postgresql datastore.
-2. Create public container app named `laravel-quickstart`.
-3. Connect the postgresql datastore (from step 1) to the app.
+2. Create a public container app named `laravel-quickstart`.
+3. Add the postgresql datastore (from step 1) to the app.
 4. Add a `APP_KEY for Laravel` capability to the app.
 5. Add a `Nginx Sidecar for Fargate Service` capability to the app.
 6. Add a subdomain to the app to make it accessible to the public.
