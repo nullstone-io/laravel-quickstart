@@ -1,2 +1,4 @@
 # laravel-quickstart
-PHP Laravel Quickstart for Nullstone
+
+This is a PHP Laravel Quickstart for [Nullstone](https://nullstone.io).
+
