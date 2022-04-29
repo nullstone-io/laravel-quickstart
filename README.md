@@ -4,6 +4,9 @@ This is a PHP Laravel Quickstart for [Nullstone](https://nullstone.io).
 
 This is based on the Laravel [install guide](https://laravel.com/docs/8.x/installation).
 
+This quickstart uses the production-ready docker image [nullstone/laravel](https://hub.docker.com/r/nullstone/laravel) that works locally with hot-reload.
+The base docker image can be found at [github.com/nullstone-io/docker-laravel](https://github.com/nullstone-io/docker-laravel).
+
 This example is configured with the following:
 - static assets served through nginx
 - postgresql database
