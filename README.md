@@ -9,7 +9,7 @@ The base docker image can be found at [github.com/nullstone-io/docker-laravel](h
 
 This quickstart is set up with:
 
-- PHP 8
+- PHP 8.1
 - Laravel
 - Static Assets
     - Configured to hot-reload assets for local development
@@ -32,7 +32,7 @@ This quickstart is set up with:
   ```shell
   nullstone up --wait --block=<app-name> --env=<env-name>
   ```
-4. Build, push, and deploy
+8. Build, push, and deploy
   ```shell
   docker build -t laravel-app .
   nullstone launch --source=laravel-app --app=<app-name> --env=<env-name>
