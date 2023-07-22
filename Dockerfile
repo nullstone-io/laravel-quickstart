@@ -2,6 +2,5 @@
 FROM nullstone/laravel
 
 # Copy code, install dependencies
-COPY . .
+COPY --chown=nobody:nobody . .
 RUN composer install --optimize-autoloader --no-dev
-RUN chown -R nobody:nobody .
