@@ -4,6 +4,10 @@ subdomains:
   laravel-subdomain:
     module: nullstone/autogen-aws-subdomain
 
+datastores:
+  postgres:
+    module: nullstone/aws-rds-postgres
+
 apps:
   laravel-quickstart:
     module: nullstone/aws-fargate-service
